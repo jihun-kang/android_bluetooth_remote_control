@@ -11,6 +11,7 @@ public abstract  class BluetoothStreamingHandler {
             return btSet.close();
         return false;
     }
+
     public final boolean write(byte[] buffer) {
         BluetoothSerialClient btSet = BluetoothSerialClient.getInstance();
         if(btSet != null)

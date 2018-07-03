@@ -36,7 +36,6 @@ import android.widget.Toast;
 import com.a2big.aduinorobotcontrol.listener.OnBluetoothEnabledListener;
 import com.a2big.aduinorobotcontrol.listener.OnScanListener;
 
-
 public class MainActivity extends Activity {
 
     private LinkedList<BluetoothDevice> mBluetoothDevices = new LinkedList<BluetoothDevice>();
@@ -50,7 +49,6 @@ public class MainActivity extends Activity {
     private ProgressDialog mLoadingDialog;
     private AlertDialog mDeviceListDialog;
     private BluetoothSerialClient mClient;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
